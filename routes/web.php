@@ -21,7 +21,7 @@ Route::get('/LC', function () {
 
     // Laravel takes the data and returns it as JSON
     //return $tasks;
-    return view('LC_welcome', compact('tasks'));
+    return view('laracasts.LC_index', compact('tasks'));
 });
 
 Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksController
@@ -29,7 +29,7 @@ Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksControll
 Route::get('/tasks', function () {
     //$tasks = DB::table('tasks')->get();  // Using Laravel's Query Builder
     $tasks = Task::all();              // Using Eloquent with Task model
-    return view('LC_tasks.index', compact('tasks'));
+    return view('laracasts.LC_tasks.index', compact('tasks'));
 });
 */
 
@@ -40,7 +40,7 @@ Route::get('/tasks/{task}', function ($id) {
     //$task = DB::table('tasks')->find($id);  // Using Laravel's Query Builder
     $task = Task::find($id);              // Using Eloquent with Task model
     // dd($task);   // Die and Dump
-    return view('LC_tasks.show', compact('task'));
+    return view('laracasts.LC_tasks.show', compact('task'));
 });
 */
 
