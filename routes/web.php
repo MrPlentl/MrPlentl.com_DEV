@@ -10,21 +10,61 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\LcTask;
+
 
 ###############################################
 ##########  Laracasts Tutorial  ###############
 ###############################################
-Route::get('/LC', function () {
+use App\LcTask;
 
-    $tasks = DB::table('tasks')->get();  // Using Laravel's Query Builder
+
+// 2) Basic Routing
+Route::get('/', function () { return view('laracasts.default'); });
+Route::get('/about', function () { return view('laracasts.about'); });
+//////////////
+
+
+// 5) Pass Data to Your Views
+Route::get('/LC', function () {
+    //return view('laracasts.welcome', ['name' => 'Brandon']);
+
+    ### Alternate Ways ###
+    //return view ('laracasts.welcome')->with('name','Brandon');
+
+    //$name = 'Brandon';
+    //return view ('laracasts.welcome', compact('name'));
+
+    $tasks = ['Go to the Store', 'Finish the Tutorials' , 'Clean the House'];
+    return view ('laracasts.welcome', compact('tasks'));
+
+});
+//////////////
+
+// 06) Working With the Query Builder
+Route::get('/LC/tasks', function () {
+
+    $tasks = DB::table('lc_tasks')->get();  // Using Laravel's Query Builder
 
     // Laravel takes the data and returns it as JSON
     //return $tasks;
-    return view('laracasts.LC_index', compact('tasks'));
+
+    return view('laracasts.lc_tasks', compact('tasks'));
 });
 
-Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksController
+Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksController
+
+Route::get('/tasks/{task}', function ($id) {
+
+    //dd($id);   // Die and Dump - This is simply echoing out the number given in the URI in the {task} slot... just passing the variable
+    $task = DB::table('lc_tasks')->find($id);  // Using Laravel's Query Builder
+    //dd($task);
+    //$task = Task::find($id);              // Using Eloquent with Task model
+    // dd($task);   // Die and Dump
+    return view('laracasts.LC_tasks.show', compact('task'));
+});
+
+
+//Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksController
 /*
 Route::get('/tasks', function () {
     //$tasks = DB::table('tasks')->get();  // Using Laravel's Query Builder
@@ -33,16 +73,7 @@ Route::get('/tasks', function () {
 });
 */
 
-Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksController
-/*
-Route::get('/tasks/{task}', function ($id) {
-    // dd($id);   // Die and Dump
-    //$task = DB::table('tasks')->find($id);  // Using Laravel's Query Builder
-    $task = Task::find($id);              // Using Eloquent with Task model
-    // dd($task);   // Die and Dump
-    return view('laracasts.LC_tasks.show', compact('task'));
-});
-*/
+
 
 ###############################################
 ########  END Laracasts Tutorial  #############
@@ -53,9 +84,9 @@ Route::get('/tasks/{task}', function ($id) {
 //Route::get('/', 'demo@test123');
 //Route::get('/tasks/{id}', 'demo@task');
 
-Route::get('/', function () { return view('home'); });
+//Route::get('/', function () { return view('home'); });
 
-Route::get('/about', function () { return view('about'); });
+//Route::get('/about', function () { return view('about'); });
 Route::get('/about-brandon-plentl', function () { return view('about'); });
 Route::get('/demo', function () { return view('demo'); });
 
