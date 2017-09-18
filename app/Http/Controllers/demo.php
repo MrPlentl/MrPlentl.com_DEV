@@ -22,6 +22,6 @@ class demo extends Controller
 
         $tasks = DB::table('tasks')->find($id);
 
-        return view('tasks.show', compact('tasks'));
+        return view('Tasks.show', compact('tasks'));
     }
 }

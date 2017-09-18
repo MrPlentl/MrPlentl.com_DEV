@@ -48,7 +48,7 @@ Route::get('/LC/tasks', function () {
     // Laravel takes the data and returns it as JSON
     //return $tasks;
 
-    return view('laracasts.lc_tasks', compact('tasks'));
+    return view('laracasts.tasks.index', compact('tasks'));
 });
 
 Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksController
@@ -60,7 +60,7 @@ Route::get('/tasks/{task}', function ($id) {
     //dd($task);
     //$task = Task::find($id);              // Using Eloquent with Task model
     // dd($task);   // Die and Dump
-    return view('laracasts.LC_tasks.show', compact('task'));
+    return view('laracasts.Tasks.show', compact('task'));
 });
 
 

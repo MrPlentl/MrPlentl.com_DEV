@@ -14,7 +14,7 @@ class LcTasksController extends Controller
         //$tasks = DB::table('tasks')->get();  // Using Laravel's Query Builder
         $tasks = LcTask::all();              // Using Eloquent with Task model
 
-        return view('laracasts.LC_tasks.index', compact('tasks'));
+        return view('laracasts.Tasks.index', compact('tasks'));
     }
 
     public function show(LcTask $task)
@@ -24,6 +24,6 @@ class LcTasksController extends Controller
         //$task = Task::find($id);              // Using Eloquent with Task model
 
         // dd($task);   // Die and Dump
-        return view('laracasts.LC_tasks.show', compact('task'));
+        return view('laracasts.Tasks.show', compact('task'));
     }
 }
