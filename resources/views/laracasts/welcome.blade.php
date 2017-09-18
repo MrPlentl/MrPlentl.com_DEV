@@ -89,6 +89,11 @@
                     </ul>
                 @endforeach
                 </div>
+
+                <div style="margin: auto; width: 50%;text-align: center">
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <a href="/LC/tasks"> <button type="button" class="btn btn-primary">View DB Tasks</button></a>
+                </div>
             </div>
         </div>
     </body>
