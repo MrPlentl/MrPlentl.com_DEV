@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tasks</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="container" style="padding-top: 20px;">
+@extends('laracasts.layout')
+
+@section('title')MrPlentl | Laracasts Training - Task List
+@stop
+
+@section('sub-title')Tasks
+@stop
+
+@section('main-content')
+
+
 <ul class="list-group">
     @foreach( $tasks as $task )
         <li class="list-group-item">
@@ -16,6 +18,5 @@
         </li>
     @endforeach
 </ul>
-</div>
-</body>
-</html>
+
+@stop

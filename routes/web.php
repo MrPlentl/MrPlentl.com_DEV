@@ -90,7 +90,11 @@ Route::get('/LC', function () {
 Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksController
 
 Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksController
+//////////////
 
+# 10) Layouts and Structure
+Route::get('/LC/posts', 'PostsController@index');
+Route::get('/LC/posts/{post}', 'PostsController@show');
 
 ###############################################
 ########  END Laracasts Tutorial  #############
