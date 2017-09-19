@@ -1,4 +1,4 @@
-@extends('laracasts.layout-LC')
+@extends('laracasts.layout')
 
 @section('title')Laracasts Tutorial  | Home
 @stop
@@ -36,7 +36,7 @@
                         </ul>
                         <div style="margin: auto; width: 50%;text-align: center">
                             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="/LC/tasks"> <button type="button" class="btn btn-primary">View All Tasks</button></a>
+                            <a href="/LC/tasks"><button type="button" class="btn btn-secondary">BACK</button></a>
                         </div>
                     </div>
                 </div><!--end of row-->

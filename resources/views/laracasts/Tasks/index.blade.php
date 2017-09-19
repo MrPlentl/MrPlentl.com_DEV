@@ -19,4 +19,8 @@
     @endforeach
 </ul>
 
+<a href="/LC">
+    <button type="button" class="btn btn-secondary">BACK</button>
+</a>
+
 @stop

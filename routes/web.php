@@ -34,7 +34,7 @@ Route::get('/LC', function () {
     //$name = 'Brandon';
     //return view ('laracasts.welcome', compact('name'));
 
-    $tasks = ['Go to the Store', 'Finish the Tutorials' , 'Clean the House'];
+    $tasks = ['Go to the Store', 'Finish the Tutorials' , 'Clean the House', 'Keep Learning'];
     return view ('laracasts.welcome', compact('tasks'));
 
 });

@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>The Task</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    </head>
-    <body>
-    <div class="alert alert-success" role="alert">
-        <h1>{{ $task->body }}</h1>
-    </div>
-    </body>
-</html>
+@extends('laracasts.layout')
+
+@section('title')
+    The Task
+@endsection
+
+@section('sub-title')
+    The Task
+@endsection
+
+@section('main-content')
+    <h1>{{ $task->body }}</h1>
+
+    <a href="/LC/tasks">
+    <button type="button" class="btn btn-secondary">BACK</button>
+    </a>
+@endsection
