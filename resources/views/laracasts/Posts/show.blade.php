@@ -24,5 +24,5 @@
 @endsection
 
 @section('main-content')
-    Here is my post
+    Here is my new post
 @endsection

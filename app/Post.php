@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-
+    protected $fillable = ['title','body'];
+    // The inverse
+    //protected $guarded = ['csrf_field'];
 }

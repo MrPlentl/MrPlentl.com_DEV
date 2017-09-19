@@ -93,7 +93,18 @@ Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksCon
 //////////////
 
 # 10) Layouts and Structure
+//Route::get('/LC/posts', 'PostsController@index');
+//Route::get('/LC/posts/{post}', 'PostsController@show');
+
+# 11) Form Request Data and CSRF
+
+//Route::get('/LC/blog', 'PostsController@index');
+
 Route::get('/LC/posts', 'PostsController@index');
+Route::get('/LC/posts/create', 'PostsController@create');
+
+Route::post('/LC/posts','PostsController@store');
+
 Route::get('/LC/posts/{post}', 'PostsController@show');
 
 ###############################################
