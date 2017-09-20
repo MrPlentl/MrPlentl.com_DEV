@@ -121,6 +121,8 @@ Route::get('/LC/posts/{post}', 'PostsController@show');
 Route::get('/about-brandon-plentl', function () { return view('about'); });
 Route::get('/demo', function () { return view('demo'); });
 
+Route::get('/blog', function(){ return view('blog'); });
+
 #############################
 #####  TEMPLATES  ###########
 #############################
