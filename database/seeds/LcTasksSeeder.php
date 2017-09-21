@@ -1,21 +1,13 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: bplentl
+ * Date: 9/21/2017
+ * Time: 12:50 PM
+ */
 
 use Illuminate\Database\Seeder;
 use App\LcTask;
-
-class DatabaseSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        $this->call(LcTasksSeeder::class);
-    }
-
-}
 
 class LcTasksSeeder extends Seeder {
 
@@ -30,5 +22,3 @@ class LcTasksSeeder extends Seeder {
     }
 
 }
-
-
