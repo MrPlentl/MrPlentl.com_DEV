@@ -8,10 +8,10 @@
                     <span class="alt-font"><i class="icon icon_mail"></i> luke.skywalker@starwars.com</span>
 
                     <div class="pull-right">
-                        <a href="/templates/login" class="btn btn-primary login-button btn-xs">Login</a>
-                        <a href="#" class="btn btn-primary btn-filled btn-xs">Signup</a>
-                        <a href="#" class="language"><img alt="English" src="/img/english.png"></a>
-                        <a href="#" class="language"><img alt="English" src="/img/denmark.png"></a>
+                        <a href="/login" class="btn btn-primary login-button btn-xs">Login</a>
+                        <a href="/register" class="btn btn-primary btn-filled btn-xs">Signup</a>
+						<a href="{{ route('logout') }}" style="color: #FFFFFF;font-size: 10px;" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+						<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
 
         <div class="row nav-menu">
             <div class="col-sm-3 col-md-2 columns">
-                <a href="/templates">
+                <a href="/">
                     <img class="logo logo-light" alt="Logo" src="/img/logo-light.png">
                     <img class="logo logo-dark" alt="Logo" src="/img/logo-dark.png">
                 </a>

@@ -187,7 +187,7 @@
                         </li>
                     </ul>
                     <br />
-                    <span class="sub" ><span style="display: inline-block; text-align: right; margin: 0;"></span> Copyleft 2016 <a href="/">MrPlentl.com</a> - Built with Laravel 5.5</span>
+                    <span class="sub" ><span style="display: inline-block; text-align: right; margin: 0;"></span> Copyleft 2016 <a href="/">MrPlentl.com</a> - Built on Laravel {{ App::VERSION() }}</span>
                 </div>
             </div><!--end of row-->
         </div><!--end of container-->
