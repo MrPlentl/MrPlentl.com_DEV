@@ -1,5 +1,5 @@
 <?php
-
+// php artisan db:seed
 use Illuminate\Database\Seeder;
 use App\LcTask;
 
@@ -24,7 +24,7 @@ class LcTasksSeeder extends Seeder {
         DB::table('lc_tasks')->delete();
 
         LcTask::create(array('body' => 'Go to the Store'));
-        LcTask::create(array('body' => 'Finish the Laracasts Tutorial'));
+        LcTask::create(array('body' => 'Finish the Laracasts Tutorials'));
         LcTask::create(array('body' => 'Finalize Authentication'));
         LcTask::create(array('body' => 'Make sure the Seeder is working'));
     }
