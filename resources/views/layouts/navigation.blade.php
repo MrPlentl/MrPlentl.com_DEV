@@ -8,10 +8,32 @@
                     <span class="alt-font"><i class="icon icon_mail"></i> luke.skywalker@starwars.com</span>
 
                     <div class="pull-right">
-                        <a href="/login" class="btn btn-primary login-button btn-xs">Login</a>
-                        <a href="/register" class="btn btn-primary btn-filled btn-xs">Signup</a>
-						<a href="{{ route('logout') }}" style="color: #FFFFFF;font-size: 10px;" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
-						<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
+
+                        @guest
+                            <a href="{{ route('login') }}" class="btn btn-primary login-button btn-xs">Login</a>
+                            <a href="{{ route('register') }}" class="btn btn-primary btn-filled btn-xs">Signup</a>
+
+                            @else
+                                <li class="dropdown" style="list-style: none;">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color:#ffffff;">
+                                        {{ Auth::user()->name }} <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                                Logout
+                                            </a>
+
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                {{ csrf_field() }}
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                                @endguest
                     </div>
                 </div>
             </div>
