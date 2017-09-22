@@ -21,6 +21,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/auth', function(){ return view('auth-home'); });
 
+
+
 # 2) Basic Routing
 Route::get('/', function () { return view('laracasts.default'); });
 Route::get('/about', function () { return view('laracasts.about'); });
@@ -114,6 +116,8 @@ Route::get('/LC/posts/{post}', 'PostsController@show');
 ########  END Laracasts Tutorial  #############
 ###############################################
 
+
+Route::get('/sandbox', function (){ return view('sandbox'); });
 
 //Route::get('/', 'demo@test123');
 //Route::get('/tasks/{id}', 'demo@task');

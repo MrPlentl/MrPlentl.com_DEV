@@ -1,10 +1,10 @@
 @extends('laracasts.layout')
 
 @section('title')MrPlentl | Laracasts Training - Task List
-@stop
+@endsection
 
 @section('sub-title')Tasks
-@stop
+@endsection
 
 @section('main-content')
 
@@ -23,4 +23,4 @@
     <button type="button" class="btn btn-secondary">BACK</button>
 </a>
 
-@stop
+@endsection

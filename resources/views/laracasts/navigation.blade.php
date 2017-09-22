@@ -1,4 +1,3 @@
-<div class="nav-container">
     <nav class="top-bar">
         <div class="container">
             <div class="row nav-menu">
@@ -12,17 +11,10 @@
                 <div class="col-sm-9 col-md-10 columns">
                     <ul class="menu">
                         <li class="has-dropdown"><a href="#">Laracasts</a>
-                            <div class="subnav subnav-fullwidth">
-                                <div>
-                                    <h6 class="alt-font">Home Layouts</h6>
-                                    <ul class="subnav">
-                                        <li><a href="/templates">Home Classic</a></li>
-                                        <li><a href="/templates/home-2">Home Education</a></li>
-                                        <li><a href="/templates/home-3">Home Business</a></li>
-                                        <li><a href="/templates/home-4">Home Agency</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <ul class="subnav">
+                                <li><a href="/LC/posts">Posts</a></li>
+                                <li><a href="/LC/tasks">Tasks</a></li>
+                            </ul>
                         </li>
                     </ul>
 
@@ -54,4 +46,3 @@
 
         </div><!--end of container-->
     </nav>
-</div>

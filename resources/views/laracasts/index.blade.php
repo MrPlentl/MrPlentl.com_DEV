@@ -1,7 +1,7 @@
 @extends('laracasts.layout')
 
 @section('title')Laracasts Tutorial  | Home
-@stop
+@endsection
 
 @section('main-content')
     <div class="main-container">
@@ -43,4 +43,4 @@
             </div><!--end of container-->
         </section>
     </div>
-@stop
+@endsection

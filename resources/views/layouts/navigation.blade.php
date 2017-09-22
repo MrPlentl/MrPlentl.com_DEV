@@ -1,14 +1,11 @@
 <nav class="top-bar overlay-bar">
     <div class="container">
-
         <div class="row utility-menu">
             <div class="col-sm-12">
                 <div class="utility-inner clearfix">
-
                     <span class="alt-font"><i class="icon icon_pin"></i> Rooted in <a href="https://www.google.com/maps/place/Euless,+TX/data=!4m2!3m1!1s0x864e794bbb480dff:0xcf93da011b356265?sa=X&ved=0ahUKEwjooIS87LXPAhUDziYKHYXgDCwQ8gEIgAEwCw" style="text-decoration:none;color:#fff;" target="_blank">Euless</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_mail"></i> <a href="mailto:bplentl@gmail.com" style="text-decoration:none;color:#fff;" target="_blank">bplentl@gmail.com</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_phone"></i> <a href="tel:2145468271" style="text-decoration:none;color:#fff;" target="_blank">(682) 503-9073</a></span>
-
                     <div class="pull-right">
                         @guest
                             <a href="{{ route('login') }}" class="btn btn-primary login-button btn-xs">Login</a>
@@ -151,6 +148,5 @@
         <div class="mobile-toggle">
             <i class="icon icon_menu"></i>
         </div>
-
     </div><!--end of container-->
 </nav>

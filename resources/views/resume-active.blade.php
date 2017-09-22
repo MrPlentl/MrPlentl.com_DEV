@@ -14,7 +14,7 @@
 @extends('layout-base')
 
 @section('title')MrPlentl | Home
-@stop
+@endsection
 
 @section('main-content')
     <div class="main-container">
@@ -467,4 +467,4 @@
             </div><!--end of projects wrapper-->
         </section>
     </div>
-@stop
+@endsection
