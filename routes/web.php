@@ -36,6 +36,9 @@ Route::get('/', function () {
 Route::get('/LC/about', function () { return view('laracasts.about'); });
 Route::get('/LC/trainer', 'DemoController@test123');
 
+// Redirect to a named Route
+Route::get('/LC/redirect', function(){ return redirect()->route('home');});
+
 //////////////
 
 
@@ -139,6 +142,14 @@ Route::get('/about-brandon-plentl', function () { return view('about'); });
 Route::get('/demo', function () { return view('demo'); });
 
 Route::get('/blog', function(){ return view('blog'); });
+
+
+Route::get('/posts', 'PostsController@index');
+Route::get('/posts/create', 'PostsController@create')->middleware('auth');  // Must be above variable insertion
+
+Route::get('/posts/{post}', 'PostsController@show');
+Route::post('/posts','PostsController@store');
+
 
 Route::get('/contact', function(){ return view('contact'); });
 

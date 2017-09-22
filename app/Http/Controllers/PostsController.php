@@ -12,9 +12,11 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
+    public function index(){
+        //$posts = DB::table('posts')->get();  // Using Laravel's Query Builder
+        $posts = Post::all();              // Using Eloquent with Task model
+
+        return view('Posts.index', compact('posts'));
     }
 
     /**
@@ -24,7 +26,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        return view('Posts.create');
     }
 
     /**
@@ -44,9 +46,8 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        //
+    public function show(Post $post){
+        return view('Posts.show', compact('post'));
     }
 
     /**
