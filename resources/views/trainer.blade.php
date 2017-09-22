@@ -11,7 +11,7 @@
 # Revisions: \\
 
 ?>
-@extends('layout-base')
+@extends('layouts.master')
 
 @section('title')Laravel Trainer | Home
 @endsection

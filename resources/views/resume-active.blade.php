@@ -11,13 +11,12 @@
 # Revisions: \\
 
 ?>
-@extends('layout-base')
+@extends('layouts.master')
 
 @section('title')MrPlentl | Home
 @endsection
 
 @section('main-content')
-    <div class="main-container">
         <header class="page-header resume-header">
             <div class="background-image-holder parallax-background">
                 <img class="background-image" alt="Background Image" src="img/hero21.jpg">
@@ -466,5 +465,4 @@
                 </div><!--end of container-->
             </div><!--end of projects wrapper-->
         </section>
-    </div>
 @endsection

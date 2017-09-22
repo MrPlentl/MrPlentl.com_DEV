@@ -3,7 +3,7 @@
 
 ?>
 
-@extends('layout-base')
+@extends('layouts.master')
 
 @section('title')About Brandon Plentl
 @endsection
