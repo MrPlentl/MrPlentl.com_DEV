@@ -17,12 +17,6 @@
 ###############################################
 use App\LcTask;
 
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/auth', function(){ return view('auth-home'); });
-
-
-
 # 2) Basic Routing
 //Route::get('/', function () { return view('laracasts.default'); });
 Route::get('/', function () {
@@ -130,6 +124,10 @@ Route::get('/LC/posts/{post}', 'LcPostsController@show');
 ###############################################
 
 
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/auth', function(){ return view('auth-home'); });
+
 Route::get('/sandbox', function (){ return view('sandbox'); });
 
 //Route::get('/', 'DemoController@test123');
@@ -143,10 +141,9 @@ Route::get('/demo', function () { return view('demo'); });
 
 Route::get('/blog', function(){ return view('blog'); });
 
-
+####   POSTS   #####
 Route::get('/posts', 'PostsController@index');
 Route::get('/posts/create', 'PostsController@create')->middleware('auth');  // Must be above variable insertion
-
 Route::get('/posts/{post}', 'PostsController@show');
 Route::post('/posts','PostsController@store');
 
