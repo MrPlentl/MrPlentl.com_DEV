@@ -37,7 +37,33 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Create a new post using the request data
+        //Save it to the Database
+        // And then redirect
+
+        //dd(request()->all());
+        //dd(request('body'));
+        //dd(request(['title','body']));
+
+        //$post = new Post;
+
+        # Option 1
+//        $post->title = request('title');
+//        $post->body = request('body');
+//        $post->save();
+
+
+        # Option 2 - This will generate a MassAssignmentException
+        # It will require this declaration in Post.php || protected $fillable = ['post_title','post_content']; or the inverse protected $guarded = ['csrf_field'];
+
+        Post::create([
+            'post_status'=> 1,
+            'post_author'=> 1,
+            'post_title'=>request('post_title'),
+            'post_content'=>request('post_content')
+        ]);
+
+        return redirect('/posts');
     }
 
     /**
