@@ -100,9 +100,9 @@
                             <div class="col-md-3">
                                 <h6 class="alt-font">Web Sites</h6>
                                 <ul class="subnav">
-                                    <li><a href="https://laravel.com/">Laravel.com</a></li>
-                                    <li><a href="https://laracasts.com/">Laracasts</a></li>
-                                    <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                                    <li><a href="https://laravel.com/" target="_blank">Laravel.com</a></li>
+                                    <li><a href="https://laracasts.com/" target="_blank">Laracasts</a></li>
+                                    <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -110,12 +110,12 @@
 
                     <li class="has-dropdown"><a href="#">Social</a>
                         <ul class="subnav">
-                            <li><a href="https://facebook.com/MrPlentl">Facebook</a></li>
-                            <li><a href="https://twitter.com/MrPlentl">Twitter</a></li>
-                            <li><a href="https://youtube.com/c/thabamboozler">YouTube</a></li>
-                            <li><a href="https://plus.google.com/+ThaBamboozler">Google+</a></li>
-                            <li><a href="https://instagram.com/MrPlentl">Instagram</a></li>
-                            <li><a href="https://github.com/MrPlentl">GitHub</a></li>
+                            <li><a href="https://facebook.com/MrPlentl" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/MrPlentl" target="_blank">Twitter</a></li>
+                            <li><a href="https://youtube.com/c/thabamboozler" target="_blank">YouTube</a></li>
+                            <li><a href="https://plus.google.com/+ThaBamboozler" target="_blank">Google+</a></li>
+                            <li><a href="https://instagram.com/MrPlentl" target="_blank">Instagram</a></li>
+                            <li><a href="https://github.com/MrPlentl" target="_blank">GitHub</a></li>
                         </ul>
                     </li>
 
@@ -128,19 +128,19 @@
 
                 <ul class="social-icons text-right">
                     <li>
-                        <a href="https://twitter.com/MrPlentl">
+                        <a href="https://twitter.com/MrPlentl" target="_blank">
                             <i class="icon social_twitter"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://facebook.com/MrPlentl">
+                        <a href="https://facebook.com/MrPlentl" target="_blank">
                             <i class="icon social_facebook"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://instagram.com/MrPlentl">
+                        <a href="https://instagram.com/MrPlentl" target="_blank">
                             <i class="icon social_instagram"></i>
                         </a>
                     </li>
