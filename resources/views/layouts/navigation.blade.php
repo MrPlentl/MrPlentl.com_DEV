@@ -4,12 +4,12 @@
         <div class="row utility-menu">
             <div class="col-sm-12">
                 <div class="utility-inner clearfix">
+
                     <span class="alt-font"><i class="icon icon_pin"></i> Rooted in <a href="https://www.google.com/maps/place/Euless,+TX/data=!4m2!3m1!1s0x864e794bbb480dff:0xcf93da011b356265?sa=X&ved=0ahUKEwjooIS87LXPAhUDziYKHYXgDCwQ8gEIgAEwCw" style="text-decoration:none;color:#fff;" target="_blank">Euless</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_mail"></i> <a href="mailto:bplentl@gmail.com" style="text-decoration:none;color:#fff;" target="_blank">bplentl@gmail.com</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_phone"></i> <a href="tel:2145468271" style="text-decoration:none;color:#fff;" target="_blank">(682) 503-9073</a></span>
 
                     <div class="pull-right">
-
                         @guest
                             <a href="{{ route('login') }}" class="btn btn-primary login-button btn-xs">Login</a>
                             <a href="{{ route('register') }}" class="btn btn-primary btn-filled btn-xs">Signup</a>
@@ -34,7 +34,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                @endguest
+                        @endguest
                     </div>
                 </div>
             </div>
@@ -72,37 +72,37 @@
                             <div class="col-md-3">
                                 <h6 class="alt-font">Hobbies</h6>
                                 <ul class="subnav">
-                                    <li><a href="/home-5">Movies & TV Shows</a></li>
-                                    <li><a href="/home-5">Books & Comics</a></li>
-                                    <li><a href="/personal">Music</a></li>
-                                    <li><a href="/launching-soon-2">Video Games</a></li>
+                                    <li><a href="/hobbies/movies-and-tv">Movies & TV Shows</a></li>
+                                    <li><a href="/hobbies/books">Books & Comics</a></li>
+                                    <li><a href="/hobbies/music">Music</a></li>
+                                    <li><a href="/hobbies/video-games">Video Games</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
                                 <h6 class="alt-font">Links</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates">RSS Feeds</a></li>
-                                    <li><a href="/templates/home-2">WordPress Plugins</a></li>
-                                    <li><a href="/templates/home-3">My IDE Styles</a></li>
+                                    <li><a href="/links#rss">RSS Feeds</a></li>
+                                    <li><a href="/links#wp-plugins">WordPress Plugins</a></li>
+                                    <li><a href="/links#ide-styles">My IDE Styles</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
                                 <h6 class="alt-font">Development Links</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates/home-resume">Programs</a></li>
-                                    <li><a href="/templates/launching-soon-3">Browser Extensions</a></li>
-                                    <li><a href="/templates/coming-soon">WAMP Setup</a></li>
+                                    <li><a href="/dev-links#programs">Programs</a></li>
+                                    <li><a href="/dev-links#browser-ext">Browser Extensions</a></li>
+                                    <li><a href="/dev-links#wamp-setup">WAMP Setup</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
                                 <h6 class="alt-font">Web Sites</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates/home-resume">Laravel.com</a></li>
-                                    <li><a href="/templates/launching-soon-3">Laracasts</a></li>
-                                    <li><a href="/templates/coming-soon">CSS-Tricks</a></li>
+                                    <li><a href="https://laravel.com/">Laravel.com</a></li>
+                                    <li><a href="https://laracasts.com/">Laracasts</a></li>
+                                    <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -110,13 +110,12 @@
 
                     <li class="has-dropdown"><a href="#">Social</a>
                         <ul class="subnav">
-                            <li><a href="/templates/projects">Facebook</a></li>
-                            <li><a href="/templates/projects-2">Twitter</a></li>
-                            <li><a href="/templates/projects-2">YouTube</a></li>
-                            <li><a href="/templates/projects-2">Google+</a></li>
-                            <li><a href="/templates/project-single-2">Instagram</a></li>
-                            <li><a href="/templates/project-single">GitHub</a></li>
-                            <li><a href="/templates/project-single">Slack</a></li>
+                            <li><a href="https://facebook.com/MrPlentl">Facebook</a></li>
+                            <li><a href="https://twitter.com/MrPlentl">Twitter</a></li>
+                            <li><a href="https://youtube.com/c/thabamboozler">YouTube</a></li>
+                            <li><a href="https://plus.google.com/+ThaBamboozler">Google+</a></li>
+                            <li><a href="https://instagram.com/MrPlentl">Instagram</a></li>
+                            <li><a href="https://github.com/MrPlentl">GitHub</a></li>
                         </ul>
                     </li>
 
@@ -124,24 +123,24 @@
                         <a href="/blog">Blog</a>
                     </li>
 
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
 
                 <ul class="social-icons text-right">
                     <li>
-                        <a href="#">
+                        <a href="https://twitter.com/MrPlentl">
                             <i class="icon social_twitter"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://facebook.com/MrPlentl">
                             <i class="icon social_facebook"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://instagram.com/MrPlentl">
                             <i class="icon social_instagram"></i>
                         </a>
                     </li>
