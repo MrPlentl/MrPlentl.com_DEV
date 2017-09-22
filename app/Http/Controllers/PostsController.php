@@ -61,8 +61,7 @@ class PostsController extends Controller
             'body'=>request('body')
         ]);
 
-        return redirect('/LC');
-
+        return redirect('/LC/posts');
     }
 
     /**
@@ -71,9 +70,8 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(){
-        $posts = Post::all();
-        return view('laracasts.Posts.show', compact('posts'));
+    public function show(Post $post){
+        return view('laracasts.Posts.show', compact('post'));
     }
 
     /**

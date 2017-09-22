@@ -1,4 +1,4 @@
 @extends('laracasts.blog-layout')
 
-@section('page-title')Laracasts Tutorial  | Blog
+@section('page-title')Laracasts Tutorial  | Posts
 @endsection

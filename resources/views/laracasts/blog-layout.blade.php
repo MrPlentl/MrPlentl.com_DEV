@@ -36,6 +36,9 @@
 
     @include('laracasts.blog-header')
 
+    <section>
+        <div><a href="/LC/posts/create"> <button class="btn btn-primary">Create a New Post</button></a> </div>
+    </section>
     <section class="blog-list-3 bg-white">
 
         @foreach($posts as $post)
@@ -43,7 +46,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                        <h1><a href="/templates/blog-single">{{ $post->title }}</a></h1>
+                        <h1><a href="/LC/posts/{{ $post->id }}">{{ $post->title }}</a></h1>
                         <p class="lead">
                             {{ $post->body }}
                         </p>

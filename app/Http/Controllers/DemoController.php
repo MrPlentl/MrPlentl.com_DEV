@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 
-class demo extends Controller
+class DemoController extends Controller
 {
     //
 

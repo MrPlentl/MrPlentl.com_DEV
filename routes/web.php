@@ -24,9 +24,17 @@ Route::get('/auth', function(){ return view('auth-home'); });
 
 
 # 2) Basic Routing
-Route::get('/', function () { return view('laracasts.default'); });
+//Route::get('/', function () { return view('laracasts.default'); });
+Route::get('/', function () {
+
+    if(env('APP_DEV_MODE')){
+        return view('laracasts.default');
+    } else {
+        return redirect('/blog');
+    }
+});
 Route::get('/LC/about', function () { return view('laracasts.about'); });
-Route::get('/LC/trainer', 'demo@test123');
+Route::get('/LC/trainer', 'DemoController@test123');
 
 //////////////
 
@@ -108,7 +116,7 @@ Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksCon
 //Route::get('/LC/blog', 'PostsController@index');
 
 Route::get('/LC/posts', 'PostsController@index');
-Route::get('/LC/posts/create', 'PostsController@create');
+Route::get('/LC/posts/create', 'PostsController@create')->middleware('auth');
 
 Route::post('/LC/posts','PostsController@store');
 
@@ -121,8 +129,8 @@ Route::get('/LC/posts/{post}', 'PostsController@show');
 
 Route::get('/sandbox', function (){ return view('sandbox'); });
 
-//Route::get('/', 'demo@test123');
-//Route::get('/tasks/{id}', 'demo@task');
+//Route::get('/', 'DemoController@test123');
+//Route::get('/tasks/{id}', 'DemoController@task');
 
 //Route::get('/', function () { return view('home'); });
 
@@ -131,6 +139,8 @@ Route::get('/about-brandon-plentl', function () { return view('about'); });
 Route::get('/demo', function () { return view('demo'); });
 
 Route::get('/blog', function(){ return view('blog'); });
+
+Route::get('/contact', function(){ return view('contact'); });
 
 #############################
 #####  TEMPLATES  ###########
