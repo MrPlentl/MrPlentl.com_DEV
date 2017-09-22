@@ -4,8 +4,9 @@
         <div class="row utility-menu">
             <div class="col-sm-12">
                 <div class="utility-inner clearfix">
-                    <span class="alt-font"><i class="icon icon_pin"></i> 300 Collins St Melbourne</span>
-                    <span class="alt-font"><i class="icon icon_mail"></i> luke.skywalker@starwars.com</span>
+                    <span class="alt-font"><i class="icon icon_pin"></i> Rooted in <a href="https://www.google.com/maps/place/Euless,+TX/data=!4m2!3m1!1s0x864e794bbb480dff:0xcf93da011b356265?sa=X&ved=0ahUKEwjooIS87LXPAhUDziYKHYXgDCwQ8gEIgAEwCw" style="text-decoration:none;color:#fff;" target="_blank">Euless</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="alt-font"><i class="icon icon_mail"></i> <a href="mailto:bplentl@gmail.com" style="text-decoration:none;color:#fff;" target="_blank">bplentl@gmail.com</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="alt-font"><i class="icon icon_phone"></i> <a href="tel:2145468271" style="text-decoration:none;color:#fff;" target="_blank">(682) 503-9073</a></span>
 
                     <div class="pull-right">
 
@@ -49,94 +50,81 @@
 
             <div class="col-sm-9 col-md-10 columns">
                 <ul class="menu">
-                    <li class="has-dropdown"><a href="#">Home Pages</a>
+                    <li class="has-dropdown"><a href="/about-brandon-plentl">About</a>
+                        <ul class="subnav">
+                            <li><a href="/about-brandon-plentl">Brandon Plentl</a></li>
+                            <li><a href="/about-thabamboozler">ThaBamboozler</a></li>
+                            <li><a href="/hope-chiropractic">Hope Chiropractic</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="/projects">Projects</a>
+                        <ul class="subnav">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Gamematics</a></li>
+                            <li><a href="#">Websites</a></li>
+                            <li><a href="#">My Chrome Theme</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown"><a href="/favorites">Favorites</a>
                         <div class="subnav subnav-fullwidth">
+
                             <div class="col-md-3">
-                                <h6 class="alt-font">Home Layouts</h6>
+                                <h6 class="alt-font">Hobbies</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates">Home Classic</a></li>
-                                    <li><a href="/templates/home-2">Home Education</a></li>
-                                    <li><a href="/templates/home-3">Home Business</a></li>
-                                    <li><a href="/templates/home-4">Home Agency</a></li>
+                                    <li><a href="/home-5">Movies & TV Shows</a></li>
+                                    <li><a href="/home-5">Books & Comics</a></li>
+                                    <li><a href="/personal">Music</a></li>
+                                    <li><a href="/launching-soon-2">Video Games</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
-                                <h6 class="alt-font">Home Layouts</h6>
+                                <h6 class="alt-font">Links</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates/home-5">Home Corporate</a></li>
-                                    <li><a href="/templates/personal">Home Personal</a></li>
-                                    <li><a href="/templates/launching-soon-2">Service Launch</a></li>
-                                    <li><a href="/templates/launching-soon">Product Launch</a></li>
+                                    <li><a href="/templates">RSS Feeds</a></li>
+                                    <li><a href="/templates/home-2">WordPress Plugins</a></li>
+                                    <li><a href="/templates/home-3">My IDE Styles</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
-                                <h6 class="alt-font">Home Layouts</h6>
+                                <h6 class="alt-font">Development Links</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates/home-resume">Home Resume</a></li>
-                                    <li><a href="/templates/launching-soon-3">Launch with video</a></li>
-                                    <li><a href="/templates/coming-soon">Launch with countdown</a></li>
-                                    <li><a href="/templates/one-page">One Page</a></li>
+                                    <li><a href="/templates/home-resume">Programs</a></li>
+                                    <li><a href="/templates/launching-soon-3">Browser Extensions</a></li>
+                                    <li><a href="/templates/coming-soon">WAMP Setup</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3">
-                                <a class="btn btn-primary" href="#">Build your own</a>
-                                <a class="btn btn-primary btn-filled" href="#">Purchase Kyber Crystals</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="has-dropdown"><a href="#">Pages</a>
-                        <ul class="subnav">
-                            <li><a href="/templates/about">About Us</a></li>
-                            <li><a href="/templates/about-2">About Us 2</a></li>
-                            <li><a href="/templates/services">Services</a></li>
-                            <li><a href="/templates/services-2">Services 2</a></li>
-                            <li><a href="/templates/login">Login</a></li>
-                            <li><a href="/templates/404">404 Error</a></li>
-                            <li><a href="/templates/500">500 Error</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-dropdown"><a  href="#">Blog</a>
-                        <div class="subnav subnav-halfwidth">
-                            <div class="col-sm-6">
-                                <h6 class="alt-font">Article Lists</h6>
+                                <h6 class="alt-font">Web Sites</h6>
                                 <ul class="subnav">
-                                    <li><a href="/templates/blog-masonry">Masonry</a></li>
-                                    <li><a href="/templates/blog-masonry-sidebar">Masonry Sidebar</a></li>
-                                    <li><a href="/templates/blog">Blog Large List</a></li>
-                                    <li><a href="/templates/blog-large-image">Blog Image List</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <h6 class="alt-font">Article Singles</h6>
-                                <ul class="subnav">
-                                    <li><a href="/templates/blog-single">Article Basic</a></li>
-                                    <li><a href="/templates/blog-single-2">Article Basic 2</a></li>
-                                    <li><a href="/templates/blog-single-sidebar">Article Sidebar</a></li>
-                                    <li><a href="/templates/blog-single-media">Article Media</a></li>
+                                    <li><a href="/templates/home-resume">Laravel.com</a></li>
+                                    <li><a href="/templates/launching-soon-3">Laracasts</a></li>
+                                    <li><a href="/templates/coming-soon">CSS-Tricks</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li class="has-dropdown"><a href="#">Projects</a>
+
+                    <li class="has-dropdown"><a href="#">Social</a>
                         <ul class="subnav">
-                            <li><a href="/templates/projects">Projects Fullwidth</a></li>
-                            <li><a href="/templates/projects-2">Projects Contained</a></li>
-                            <li><a href="/templates/project-single-2">Project Single</a></li>
-                            <li><a href="/templates/project-single">Project Single 2</a></li>
+                            <li><a href="/templates/projects">Facebook</a></li>
+                            <li><a href="/templates/projects-2">Twitter</a></li>
+                            <li><a href="/templates/projects-2">YouTube</a></li>
+                            <li><a href="/templates/projects-2">Google+</a></li>
+                            <li><a href="/templates/project-single-2">Instagram</a></li>
+                            <li><a href="/templates/project-single">GitHub</a></li>
+                            <li><a href="/templates/project-single">Slack</a></li>
                         </ul>
                     </li>
-                    <li class="has-dropdown"><a href="#">Contact</a>
-                        <ul class="subnav">
-                            <li><a href="/templates/contact-3">Large Map</a></li>
-                            <li><a href="/templates/contact-2">Map with form</a></li>
-                            <li><a href="/templates/contact">Header with form</a></li>
-                            <li><a href="/templates/contact-4">Fullscreen photo</a></li>
-                        </ul>
+
+                    <li class="">
+                        <a href="/blog">Blog</a>
                     </li>
+
+                    <li><a href="#">Contact</a></li>
                 </ul>
 
                 <ul class="social-icons text-right">

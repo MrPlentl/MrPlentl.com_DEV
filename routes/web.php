@@ -19,6 +19,7 @@ use App\LcTask;
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/auth', function(){ return view('auth-home'); });
 
 # 2) Basic Routing
 Route::get('/', function () { return view('laracasts.default'); });

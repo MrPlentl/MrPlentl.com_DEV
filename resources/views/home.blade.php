@@ -11,9 +11,9 @@
 # Revisions: \\
 
 ?>
-@extends('layout-base')
+@extends('layouts.master')
 
-@section('title')MrPlentl | Home
+@section('title')MrPlentl | HOME
 @stop
 
 @section('main-content')
