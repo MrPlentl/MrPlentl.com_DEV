@@ -37,7 +37,7 @@
     @include('laracasts.blog-header')
 
     <section>
-        <div><a href="/LC/posts/create"> <button class="btn btn-primary">Create a New Post</button></a> </div>
+        <div class="text-center"><a href="/LC/posts/create"> <button class="btn btn-primary">Create a New Post</button></a> </div>
     </section>
     <section class="blog-list-3 bg-white">
 
