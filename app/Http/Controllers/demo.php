@@ -15,7 +15,7 @@ class demo extends Controller
 
         $tasks = DB::table('tasks')->get();
 
-        return view('trainer', compact('name','age','tasks'));
+        return view('laracasts.trainer', compact('name','age','tasks'));
     }
 
     public function task($id){

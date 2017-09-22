@@ -25,7 +25,9 @@ Route::get('/auth', function(){ return view('auth-home'); });
 
 # 2) Basic Routing
 Route::get('/', function () { return view('laracasts.default'); });
-Route::get('/about', function () { return view('laracasts.about'); });
+Route::get('/LC/about', function () { return view('laracasts.about'); });
+Route::get('/LC/trainer', 'demo@test123');
+
 //////////////
 
 

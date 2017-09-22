@@ -9,7 +9,6 @@
 @endsection
 
 @section('main-content')
-<div class="main-container">
 	<header class="page-header">
 		<div class="background-image-holder parallax-background">
 			<img class="background-image" alt="Background Image" src="img/side3.jpg">
@@ -331,6 +330,5 @@
 			</div><!--end of row-->
 		</div><!--end of container-->
 	</section>
-</div>
 @endsection
 				

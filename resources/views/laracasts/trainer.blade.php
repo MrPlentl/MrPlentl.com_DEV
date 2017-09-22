@@ -17,7 +17,6 @@
 @endsection
 
 @section('main-content')
-<div class="main-container">
     <section class="no-pad error-page bg-primary fullscreen-element">
         <div class="container align-vertical">
             <div class="row">
@@ -32,6 +31,5 @@
             </div><!--end of row-->
         </div><!--end of container-->
     </section>
-</div>
 @endsection
 				
