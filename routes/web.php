@@ -71,7 +71,7 @@ Route::get('/LC', function () {
 //    //dd($id);   // Die and Dump - This is simply echoing out the number given in the URI in the {task} slot... just passing the variable
 //    $task = DB::table('lc_tasks')->find($id);  // Using Laravel's Query Builder
 //    //dd($task);
-//    //$task = Task::find($id);              // Using Eloquent with Task model
+//    //$task = LcTask::find($id);              // Using Eloquent with Task model
 //    // dd($task);   // Die and Dump
 //    return view('laracasts.Tasks.show', compact('task'));
 //});
@@ -102,25 +102,25 @@ Route::get('/LC', function () {
 
 
 # 08) Controllers
-Route::get('/LC/tasks', 'LCTasksController@index');   // Using the TasksController
+Route::get('/LC/tasks', 'LcTasksController@index');   // Using the TasksController
 
-Route::get('/LC/tasks/{task}','LCTasksController@show');   // Using the TasksController
+Route::get('/LC/tasks/{task}','LcTasksController@show');   // Using the TasksController
 //////////////
 
 # 10) Layouts and Structure
-//Route::get('/LC/posts', 'PostsController@index');
-//Route::get('/LC/posts/{post}', 'PostsController@show');
+//Route::get('/LC/posts', 'LcPostsController@index');
+//Route::get('/LC/posts/{post}', 'LcPostsController@show');
 
 # 11) Form Request Data and CSRF
 
-//Route::get('/LC/blog', 'PostsController@index');
+//Route::get('/LC/blog', 'LcPostsController@index');
 
-Route::get('/LC/posts', 'PostsController@index');
-Route::get('/LC/posts/create', 'PostsController@create')->middleware('auth');
+Route::get('/LC/posts', 'LcPostsController@index');
+Route::get('/LC/posts/create', 'LcPostsController@create')->middleware('auth');
 
-Route::post('/LC/posts','PostsController@store');
+Route::post('/LC/posts','LcPostsController@store');
 
-Route::get('/LC/posts/{post}', 'PostsController@show');
+Route::get('/LC/posts/{post}', 'LcPostsController@show');
 
 ###############################################
 ########  END Laracasts Tutorial  #############
