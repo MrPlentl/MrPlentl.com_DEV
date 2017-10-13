@@ -119,6 +119,11 @@ Route::post('/LC/posts','LcPostsController@store');
 
 Route::get('/LC/posts/{post}', 'LcPostsController@show');
 
+
+# 99) Mailables
+
+Route::get('/demo_email', 'DemoController@sendDemoEmail');
+
 ###############################################
 ########  END Laracasts Tutorial  #############
 ###############################################
