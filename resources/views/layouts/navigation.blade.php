@@ -40,8 +40,8 @@
         <div class="row nav-menu">
             <div class="col-sm-3 col-md-2 columns">
                 <a href="/">
-                    <img class="logo logo-light" alt="Logo" src="/img/logo-light.png">
-                    <img class="logo logo-dark" alt="Logo" src="/img/logo-dark.png">
+                    <img class="logo logo-light" alt="Logo" src="/img/mrplentl-logo-light.png">
+                    <img class="logo logo-dark" alt="Logo" src="/img/mrplentl-logo-dark.png">
                 </a>
             </div>
 
@@ -59,7 +59,7 @@
                             <li><a href="#">GitHub</a></li>
                             <li><a href="#">Gamematics</a></li>
                             <li><a href="#">Websites</a></li>
-                            <li><a href="#">My Chrome Theme</a></li>
+                            <li><a href="https://chrome.google.com/webstore/detail/minimalist-dark/cgkkkfadlakkgiiipeafiogaogdgfkaj">My Chrome Theme</a></li>
                         </ul>
                     </li>
 

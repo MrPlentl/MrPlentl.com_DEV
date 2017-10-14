@@ -13,20 +13,20 @@
 ?>
 @extends('layouts.master')
 
-@section('title')MrPlentl | Home
+@section('page-title')Brandon Plentl
 @endsection
 
 @section('main-content')
         <header class="page-header resume-header">
             <div class="background-image-holder parallax-background">
-                <img class="background-image" alt="Background Image" src="img/hero21.jpg">
+                <img class="background-image" alt="Background Image" src="img/header-image-brandon-plentl.jpg">
             </div>
 
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <h1 class="text-white space-bottom-medium">Brandon Plentl</h1>
-                        <span>Web Developer / Solution Expert</span>
+                        <span>Web Developer / Solutionist</span>
                         <ul class="social-icons">
                             <li>
                                 <a href="https://twitter.com/mrplentl">

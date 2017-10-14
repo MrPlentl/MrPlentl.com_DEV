@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <title>{{ env('APP_NAME') }} | @yield('page-title')</title>
+    <title>@yield('page-title') | {{ env('APP_NAME') }}</title>
     @include('layouts.head-std')
 
     @yield('head')

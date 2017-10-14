@@ -24,7 +24,7 @@ Route::get('/', function () {
     if(env('APP_DEV_MODE')){
         return view('laracasts.default');
     } else {
-        return redirect('/blog');
+        return view('/resume-active');
     }
 });
 Route::get('/LC/about', function () { return view('laracasts.about'); });
@@ -125,7 +125,7 @@ Route::get('/LC/posts/{post}', 'LcPostsController@show');
 
 
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/auth', function(){ return view('auth-home'); });
 
 Route::get('/sandbox', function (){ return view('sandbox'); });
