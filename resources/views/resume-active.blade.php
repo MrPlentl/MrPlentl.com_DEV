@@ -362,6 +362,56 @@
             </div><!--end of container-->
         </section>
 
+        <section class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p class="lead">I Always Use the Best Technologies Available When Building My Projects</p>
+                    </div>
+                </div><!--end of row-->
+
+                <div class="row client-row">
+                    <div class="row-wrapper">
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client4.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client2.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client3.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client1.png">
+                        </div>
+                    </div>
+                </div><!--end of row-->
+
+                <div class="row client-row">
+                    <div class="row-wrapper">
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client5.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client6.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client7.png">
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <img alt="client" src="img/client8.png">
+                        </div>
+                    </div>
+                </div><!--end of row-->
+            </div><!--end of container-->
+        </section>
+
         <section class="projects-gallery">
             <div class="container">
                 <div class="row">

@@ -5,7 +5,7 @@
 
 @extends('layouts.master')
 
-@section('title')About Brandon Plentl
+@section('page-title')About Brandon Plentl
 @endsection
 
 @section('main-content')
@@ -17,9 +17,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<span class="text-white alt-font">Meet The Team</span>
-					<h1 class="text-white">About Us</h1>
-					<p class="text-white lead">Learn why we're the best at what we do<br>and why we're regarded as one of the best<br>in the creative industry today.</p>
+					<span class="text-white alt-font">Get to Know More About Me</span>
+					<h1 class="text-white">Brandon Plentl</h1>
+					<p class="text-white lead">Husband, Father, Web Developer, Gamer, Guitarist, Entertainer, <br>Jokester, Rocker, Disc Golfer, Tech Head, Movie Enthusist, <br>Comic Book Reader, Video Editor, and Much More!</p>
 				</div>
 			</div><!--end of row-->
 		</div><!--end of container-->

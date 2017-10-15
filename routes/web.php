@@ -142,6 +142,7 @@ Route::get('/sandbox', function (){ return view('sandbox'); });
 
 //Route::get('/about', function () { return view('about'); });
 Route::get('/about-brandon-plentl', function () { return view('about'); });
+Route::get('/about-ThaBamboozler', function () { return view('about-ThaBamboozler'); });
 Route::get('/demo', function () { return view('demo'); });
 
 Route::get('/blog', function(){ return view('blog'); });

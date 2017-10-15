@@ -50,14 +50,14 @@
                     <li class="has-dropdown"><a href="/about-brandon-plentl">About</a>
                         <ul class="subnav">
                             <li><a href="/about-brandon-plentl">Brandon Plentl</a></li>
-                            <li><a href="/about-thabamboozler">ThaBamboozler</a></li>
-                            <li><a href="/hope-chiropractic">Hope Chiropractic</a></li>
+                            <li><a href="/about-ThaBamboozler">ThaBamboozler</a></li>
+                            <li><a href="http://givehopechiro.com/" target="_blank">Hope Chiropractic</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown"><a href="/projects">Projects</a>
                         <ul class="subnav">
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Gamematics</a></li>
+                            <li><a href="https://github.com/mrplentl" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.youtube.com/gamematics" target="_blank">Gamematics</a></li>
                             <li><a href="#">Websites</a></li>
                             <li><a href="https://chrome.google.com/webstore/detail/minimalist-dark/cgkkkfadlakkgiiipeafiogaogdgfkaj" target="_blank">My Chrome Theme</a></li>
                         </ul>
@@ -81,7 +81,7 @@
                                 <ul class="subnav">
                                     <li><a href="/links#rss">RSS Feeds</a></li>
                                     <li><a href="/links#wp-plugins">WordPress Plugins</a></li>
-                                    <li><a href="/links#ide-styles">My IDE Styles</a></li>
+                                    <li><a href="https://github.com/MrPlentl/Bamboozled-Theme" target="_blank">My IDE Styles</a></li>
                                 </ul>
                             </div>
 
