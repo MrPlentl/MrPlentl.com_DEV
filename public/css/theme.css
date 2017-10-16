@@ -2684,9 +2684,10 @@ input[type="submit"] {
 iframe.mail-list-form {
   display: none !important;
 }
+
 footer {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 footer.social h1 {
   margin-bottom: 24px;

@@ -13,13 +13,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-                <h1 class="text-white">Contact Us<br>
-                    We'd love to hear from you
-                </h1>
+                <h1 class="text-white" style="margin-bottom: 0">Contact Me</h1>
+                <h4 style="color: white;padding-bottom: 20px;">Feel Free to Email or Send Me a Message on Social Media</h4>
             </div>
         </div><!--end of row-->
 
-        <div class="photo-form-wrapper clearfix">
+        <div class="photo-form-wrapper clearfix" style="margin-bottom: 60px;">
             <form class="email-form">
                 <div class="row">
                     <div class="col-md-3 col-sm-4 col-sm-offset-2 col-md-offset-3">
@@ -51,42 +50,30 @@
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                 <ul class="social-icons">
                     <li>
-                        <a href="#">
+                        <a href="https://twitter.com/MrPlentl" target="_blank">
                             <i class="icon social_twitter"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://facebook.com/MrPlentl" target="_blank">
                             <i class="icon social_facebook"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://instagram.com/MrPlentl" target="_blank">
                             <i class="icon social_instagram"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
-                            <i class="icon social_dribbble"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="icon social_tumblr"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="icon social_pinterest"></i>
+                        <a href="https://plus.google.com/+ThaBamboozler" target="_blank">
+                            <i class="icon social_googleplus"></i>
                         </a>
                     </li>
                 </ul><br>
-                <span class="sub">© Copright 2014 <a href="#">Medium Rare</a> - All Rights Reserved</span>
+                <span class="sub">© Copright 2017 - <a href="http://mrplentl.com">MrPlentl.com</a> - This Copyright isn't legal</span>
             </div>
         </div><!--end of row-->
 
