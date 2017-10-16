@@ -29,25 +29,25 @@
                         <span>Web Developer / Solutionist</span>
                         <ul class="social-icons">
                             <li>
-                                <a href="https://twitter.com/mrplentl">
+                                <a href="https://twitter.com/mrplentl" target="_blank">
                                     <i class="icon social_twitter"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="https://www.facebook.com/MrPlentl">
+                                <a href="https://www.facebook.com/MrPlentl" target="_blank">
                                     <i class="icon social_facebook"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="https://www.instagram.com/mrplentl/">
+                                <a href="https://www.instagram.com/mrplentl/" target="_blank">
                                     <i class="icon social_instagram"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="https://www.youtube.com/c/thabamboozler">
+                                <a href="https://www.youtube.com/c/thabamboozler" target="_blank">
                                     <i class="icon social_youtube"></i>
                                 </a>
                             </li>
