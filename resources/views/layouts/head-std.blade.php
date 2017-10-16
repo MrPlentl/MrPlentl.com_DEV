@@ -2,6 +2,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107501494-1"></script>
+    <script type="text/javascript" src="/js/gtag.js"></script>
     <link href="/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="/css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
