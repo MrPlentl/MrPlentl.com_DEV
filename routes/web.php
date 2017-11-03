@@ -26,7 +26,8 @@ Route::get('/', function () {
     } else {
         return view('/resume-active');
     }
-});
+})->name('index');
+
 Route::get('/LC/about', function () { return view('laracasts.about'); });
 Route::get('/LC/trainer', 'DemoController@test123');
 
@@ -155,7 +156,8 @@ Route::post('/posts','PostsController@store');
 
 
 Route::get('/contact', function(){ return view('contact'); });
-Route::get('/MyThemes', function(){ return redirect()->route('/');});
+
+Route::get('/MyThemes', function(){ return redirect()->route('index');});
 
 #############################
 #####  TEMPLATES  ###########
