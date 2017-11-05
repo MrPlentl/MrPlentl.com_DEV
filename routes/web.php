@@ -157,7 +157,7 @@ Route::post('/posts','PostsController@store');
 
 Route::get('/contact', function(){ return view('contact'); });
 
-Route::get('/MyThemes', function(){ return redirect()->route('index');});
+Route::get('/MyThemes', function(){ return view('chrome-themes'); });
 
 #############################
 #####  TEMPLATES  ###########

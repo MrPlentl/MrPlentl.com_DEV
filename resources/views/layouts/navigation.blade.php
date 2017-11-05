@@ -59,7 +59,7 @@
                             <li><a href="https://github.com/mrplentl" target="_blank">GitHub</a></li>
                             <li><a href="https://www.youtube.com/gamematics" target="_blank">Gamematics</a></li>
                             <li><a href="#">Websites</a></li>
-                            <li><a href="https://chrome.google.com/webstore/detail/minimalist-dark/cgkkkfadlakkgiiipeafiogaogdgfkaj" target="_blank">My Chrome Theme</a></li>
+                            <li><a href="/MyThemes">My Chrome Theme</a></li>
                         </ul>
                     </li>
 

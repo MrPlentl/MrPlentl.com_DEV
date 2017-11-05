@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <h1 class="text-white space-bottom-medium">Brandon Plentl</h1>
-                        <span>Web Developer / Solutionist</span>
+                        <span>Full-Stack Web Developer / Solutionist</span>
                         <ul class="social-icons">
                             <li>
                                 <a href="https://twitter.com/mrplentl" target="_blank">
@@ -282,7 +282,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <span>HTML</span>
+                                    <span>HTML 5</span>
                                     <div class="skill-bar-holder">
                                         <div class="skill-capacity col-xs-11"></div>
                                     </div>
@@ -294,19 +294,19 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <span>Javascript / Jquery</span>
+                                    <span>JavaScript / jQuery</span>
                                     <div class="skill-bar-holder">
                                         <div class="skill-capacity col-xs-8"></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <span>Apache</span>
+                                    <span>Apache Web Server</span>
                                     <div class="skill-bar-holder">
                                         <div class="skill-capacity col-xs-9"></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <span>SQL</span>
+                                    <span>MySQL</span>
                                     <div class="skill-bar-holder">
                                         <div class="skill-capacity col-xs-7"></div>
                                     </div>
@@ -321,13 +321,13 @@
                                 <li>
                                     <span>CSS3</span>
                                     <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-6"></div>
+                                        <div class="skill-capacity col-xs-10"></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <span>Responsive Web Design</span>
+                                    <span>Bootstrap / Responsive Web Design</span>
                                     <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-9"></div>
+                                        <div class="skill-capacity col-xs-8"></div>
                                     </div>
                                 </li>
                                 <li>
@@ -339,19 +339,19 @@
                                 <li>
                                     <span>Branding &amp; Identity</span>
                                     <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-10"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Bo Staff Skills (it's been awhile)</span>
-                                    <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-7"></div>
+                                        <div class="skill-capacity col-xs-9"></div>
                                     </div>
                                 </li>
                                 <li>
                                     <span>Photoshop</span>
                                     <div class="skill-bar-holder">
                                         <div class="skill-capacity col-xs-5"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Lightsaber Skills</span>
+                                    <div class="skill-bar-holder">
+                                        <div class="skill-capacity col-xs-9"></div>
                                     </div>
                                 </li>
                             </ul>
