@@ -10,9 +10,8 @@
 						<div class="col-sm-12 text-center">
 							<i class="icon icon-compass"></i>
 							<h1 class="jumbo" style="text-shadow: 5px 3px 25px #000000;">404</h1>
-							<h1 style="text-shadow: 5px 3px 25px #000000;"><strong>Oh dear, we seem to have led you astray!</strong><br>Let's get back on track...</h1>
-							<a href="chooser.html" class="btn btn-primary btn-white" target="default">Take Me Home</a>
-							<a href="#" class="btn btn-primary btn-white btn-text-only">Report This</a>
+							<h1 style="text-shadow: 5px 3px 25px #000000;"><strong>Where are the Fireflies?!</strong><br>This place looks like it's been abandoned for awhile...</h1>
+							<a href="/" class="btn btn-primary btn-white">Back Home</a>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
