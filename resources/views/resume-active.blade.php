@@ -9,8 +9,8 @@
 # Notes:          
 # Fixes Needed:	  
 # Revisions: \\
-
 ?>
+
 @extends('layouts.master')
 
 @section('page-title')Brandon Plentl
@@ -21,7 +21,6 @@
             <div class="background-image-holder parallax-background">
                 <img class="background-image" alt="Background Image" src="img/header-image-brandon-plentl.jpg">
             </div>
-
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -62,9 +61,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                        <h1>Career Highlights</h1>
+                        <h1>Career Objective</h1>
                         <p class="lead">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+                            I know it seems crazy, but I'm on the lookout for a team of Developers that share the same passion for creating great applications using the latest code technologies in a project based environment.
                         </p>
                     </div>
                 </div><!--end of row-->
@@ -265,7 +264,7 @@
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                         <h1>Skills &amp; Expertise</h1>
                         <p class="lead">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+                            Even though my love for programming came from building Windows applications in Visual Basic, I found that my true passion was actually found in data manipulation and delivery. I do enjoy UX design, but application building and problem solving is where I really shine.
                         </p>
                     </div>
                 </div><!--end of row-->
@@ -366,46 +365,47 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <p class="lead">I Always Use the Best Technologies Available When Building My Projects</p>
+                        <p class="lead">Whenever possible, I Always Love to Use the Best, Latest and Greatest Technologies Available When Building My Projects</p>
                     </div>
                 </div><!--end of row-->
 
                 <div class="row client-row">
                     <div class="row-wrapper">
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client4.png">
+                            <img alt="client" src="img/logo-dark.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client2.png">
+                            <img alt="client" src="img/html5-css3-logo.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client3.png">
+                            <img alt="client" src="img/WordPress-logo-black.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client1.png">
+                            <img alt="client" src="img/laravel-logo.png">
                         </div>
                     </div>
                 </div><!--end of row-->
 
                 <div class="row client-row">
                     <div class="row-wrapper">
+
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client5.png">
+                            <img alt="client" src="img/bootstrap-logo.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client6.png">
+                            <img alt="client" src="img/jQuery-logo.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client7.png">
+                            <img alt="client" src="img/apache-logo-2.png">
                         </div>
 
                         <div class="col-sm-3 text-center">
-                            <img alt="client" src="img/client8.png">
+                            <img alt="client" src="img/sass-logo.png">
                         </div>
                     </div>
                 </div><!--end of row-->

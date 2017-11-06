@@ -120,7 +120,6 @@ Route::post('/LC/posts','LcPostsController@store');
 
 Route::get('/LC/posts/{post}', 'LcPostsController@show');
 
-
 # 99) Mailables
 
 Route::get('/demo_email', 'DemoController@sendDemoEmail');
@@ -128,7 +127,6 @@ Route::get('/demo_email', 'DemoController@sendDemoEmail');
 ###############################################
 ########  END Laracasts Tutorial  #############
 ###############################################
-
 
 Auth::routes();
 //Route::get('/home', 'HomeController@index')->name('home');
@@ -138,10 +136,9 @@ Route::get('/sandbox', function (){ return view('sandbox'); });
 
 //Route::get('/', 'DemoController@test123');
 //Route::get('/tasks/{id}', 'DemoController@task');
-
 //Route::get('/', function () { return view('home'); });
-
 //Route::get('/about', function () { return view('about'); });
+
 Route::get('/about-brandon-plentl', function () { return view('about'); });
 Route::get('/about-ThaBamboozler', function () { return view('about-ThaBamboozler'); });
 Route::get('/demo', function () { return view('demo'); });
@@ -154,10 +151,11 @@ Route::get('/posts/create', 'PostsController@create')->middleware('auth');  // M
 Route::get('/posts/{post}', 'PostsController@show');
 Route::post('/posts','PostsController@store');
 
-
+### CONTACT ###
 Route::get('/contact', function(){ return view('contact'); });
 
-Route::get('/MyThemes', function(){ return view('chrome-themes'); });
+### Chrome Theme Page ###
+Route::get('/chrome-theme/minimalist-dark', function(){ return view('chrome-themes'); });
 
 #############################
 #####  TEMPLATES  ###########
