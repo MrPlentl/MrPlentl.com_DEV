@@ -6,6 +6,7 @@
                     <span class="alt-font"><i class="icon icon_pin"></i> Rooted in <a href="https://www.google.com/maps/place/Euless,+TX/data=!4m2!3m1!1s0x864e794bbb480dff:0xcf93da011b356265?sa=X&ved=0ahUKEwjooIS87LXPAhUDziYKHYXgDCwQ8gEIgAEwCw" style="text-decoration:none;color:#fff;" target="_blank">Euless</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_mail"></i> <a href="mailto:bplentl@gmail.com" style="text-decoration:none;color:#fff;" target="_blank">bplentl@gmail.com</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="alt-font"><i class="icon icon_phone"></i> <a href="tel:2145468271" style="text-decoration:none;color:#fff;" target="_blank">(682) 503-9073</a></span>
+                    <!-- REMOVING THE LOGIN HEADER
                     <div class="pull-right">
                         @guest
                             <a href="{{ route('login') }}" class="btn btn-primary login-button btn-xs">Login</a>
@@ -32,7 +33,7 @@
                                     </ul>
                                 </li>
                         @endguest
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div><!--end of row-->
@@ -65,7 +66,6 @@
 
                     <li class="has-dropdown"><a href="/favorites">Favorites</a>
                         <div class="subnav subnav-fullwidth">
-
                             <div class="col-md-3">
                                 <h6 class="alt-font">Hobbies</h6>
                                 <ul class="subnav">
