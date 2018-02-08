@@ -14,7 +14,7 @@ class DemoController extends Controller
         $name = "Brandon Plentl";
         $age="32";
 
-        $tasks = DB::table('tasks')->get();
+        $tasks = DB::table('lc_tasks')->get();
 
         return view('laracasts.trainer', compact('name','age','tasks'));
     }
@@ -23,14 +23,14 @@ class DemoController extends Controller
         $name = "Brandon Plentl";
         $age="32";
 
-        $tasks = DB::table('tasks')->get();
+        $tasks = DB::table('lc_tasks')->get();
 
         return $age;
     }
 
     public function task($id){
 
-        $tasks = DB::table('tasks')->find($id);
+        $tasks = DB::table('lc_tasks')->find($id);
 
         return view('Tasks.show', compact('tasks'));
     }

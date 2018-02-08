@@ -11,7 +11,7 @@
 
 /* AUTHOR */
   Name: Brandon Plentl
-  Nickname: ThaBamboozler
+  Nickname: MrPlentl
   Title: Master of the Web (Webmaster)
   Location: DFW/Texas
   Site: http://mrplentl.com

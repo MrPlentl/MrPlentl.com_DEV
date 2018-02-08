@@ -32,7 +32,7 @@ Route::get('/LC/about', function () { return view('laracasts.about'); });
 Route::get('/LC/trainer', 'DemoController@test123');
 
 // Redirect to a named Route
-Route::get('/LC/redirect', function(){ return redirect()->route('home');});
+Route::get('/LC/redirect', function(){ return redirect()->route('index');});
 
 //////////////
 
