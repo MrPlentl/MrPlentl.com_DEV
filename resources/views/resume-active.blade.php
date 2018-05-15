@@ -75,7 +75,7 @@
                             <div class="pin-body"></div>
                             <div class="pin-head"></div>
                             <h5>2007 - Graduated</h5>
-                            <span>Bachelor of Design</span>
+                            <span>Software Applications and Programming</span>
                             <span class="sub">ITT Tech - Richardson</span>
                         </div>
                     </div><!--end 3 col-->
@@ -85,8 +85,8 @@
                             <i class="icon icon-briefcase"></i>
                             <div class="pin-body"></div>
                             <div class="pin-head"></div>
-                            <h5>2009 - Joined GoCorp.</h5>
-                            <span>Junior Developer</span>
+                            <h5>2005 - GameStop Corp.</h5>
+                            <span>Refurb Technician</span>
                             <span class="sub">UI / UX Design</span>
                         </div>
                     </div><!--end 3 col-->
@@ -113,151 +113,12 @@
                         </div>
                     </div><!--end 3 col-->
 
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="feature feature-icon-large">
-                            <i class="icon icon-mic"></i>
-                            <div class="pin-body"></div>
-                            <div class="pin-head"></div>
-                            <h5>2013 - Spoke at Meetup</h5>
-                            <span>Efficient JS Modelling</span>
-                            <span class="sub">Meetup 2014 - Melbourne</span>
-                        </div>
-                    </div><!--end 3 col-->
-
-
                 </div><!--end of row-->
             </div>
 
         </section>
 
-        <section class="expanding-list">
-
-            <div class="background-image-holder parallax-background">
-                <img class="background-image" alt="Background Image" src="img/hero22.jpg">
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h1>Education &amp; Employment</h1>
-                    </div><!--end 4 col-->
-                </div><!--end of row-->
-
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <ul class="expanding-ul">
-                            <li>
-                                <div class="title">
-                                    <i class="icon icon-pencil"></i>
-                                    <span><strong>Bachelor of Design &amp; Communication</strong> RMIT University</span>
-                                </div>
-
-                                <div class="text-content">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="title">
-                                    <i class="icon icon-briefcase"></i>
-                                    <span><strong>Junior Interaction Designer</strong> Corp &amp; Co.</span>
-                                </div>
-
-                                <div class="text-content">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="title">
-                                    <i class="icon icon-briefcase"></i>
-                                    <span><strong>User Engagement Facilitator</strong> Leehan &amp; Tax</span>
-                                </div>
-
-                                <div class="text-content">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="title">
-                                    <i class="icon icon-trophy"></i>
-                                    <span><strong>PhD. Contemporary Media</strong> University of Melbourne</span>
-                                </div>
-
-                                <div class="text-content">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!--end of row-->
-            </div>
-        </section>
-
-        <section class="stat-counters duplicatable-content">
-
-            <div class="background-image-holder parallax-background">
-                <img class="background-image" alt="Background Image" src="img/hero8.jpg">
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                        <h1>More About Me</h1>
-                    </div>
-                </div><!--end of row-->
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="stat feature">
-                            <div class="stat-bubble">
-                                <span>25</span>
-                            </div>
-                            <h3>Completed Projects</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="stat feature">
-                            <div class="stat-bubble">
-                                <span>86</span>
-                            </div>
-                            <h3>Satisfied Clients</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="stat feature">
-                            <div class="stat-bubble">
-                                <span>15</span>
-                            </div>
-                            <h3>Job Offers</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="stat feature">
-                            <div class="stat-bubble">
-                                <span>0</span>
-                            </div>
-                            <h3>Missed Deadlines</h3>
-                        </div>
-                    </div>
-                </div><!--end of row-->
-
-            </div><!--end of container-->
-        </section>
-
-        <section class="skill-bars">
+		<section class="skill-bars">
 
             <div class="container">
                 <div class="row">
@@ -301,13 +162,13 @@
                                 <li>
                                     <span>Apache Web Server</span>
                                     <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-9"></div>
+                                        <div class="skill-capacity col-xs-7"></div>
                                     </div>
                                 </li>
                                 <li>
                                     <span>MySQL</span>
                                     <div class="skill-bar-holder">
-                                        <div class="skill-capacity col-xs-7"></div>
+                                        <div class="skill-capacity col-xs-9"></div>
                                     </div>
                                 </li>
                             </ul>
@@ -358,6 +219,132 @@
                     </div>
 
                 </div><!--end of row-->
+            </div><!--end of container-->
+        </section>
+		
+        <section class="expanding-list">
+
+            <div class="background-image-holder parallax-background">
+                <img class="background-image" alt="Background Image" src="img/hero22.jpg">
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1>Education &amp; Employment</h1>
+                    </div><!--end 4 col-->
+                </div><!--end of row-->
+
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                        <ul class="expanding-ul">
+										<li>
+                                <div class="title">
+                                    <i class="icon icon-ribbon" style="padding-bottom: 20px;margin-right: 0;"></i><br>
+                                    <span><strong>Graduated from ITT Tech - Richardson</strong><br>Software Applications and Programming<br><strong style="font-size: 20px;">2007</strong></span>
+                                </div>
+
+                                <div class="text-content">
+                                    <p>
+                                        The now defunct private college that brought hope for the hopeless, actually at one time had a pretty decent education program. Despite having the trendy Java shoved down my throat, ITT pushed and strengthened my ability to learn new concepts quickly. When I first started attending, I intended to get a degree in Electronic Engineering, but after taking one programming class, I fell in love with writing code. After learning the fun, yet now useless, Visual Basic, the heavy weight Java, and the power house C++, I left ITT Tech confident and ambitious about my future career as a programmer. 
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
+                                    <span><strong>Refurb Tech</strong><br>GameStop Corp.<br><strong style="font-size: 20px;">2005</strong></span>
+                                </div>
+
+                                <div class="text-content">
+                                    <p>
+                                        While working at the GameStop distribution center, I was charged with the noble quest of restoring life to one of the greatest video game systems of all time, the PlayStation 2. While it may have seemed to be just a job to get me through school, I actually learned quite a few things there. One, I have no desire to work with electronic components. Two, GameStop runs a tight ship. It's the only place I've ever worked that every employee systematically took their break at the same time.  But the most important lesson I learned, is that time is money. We only have so much time every day and it's up to us to use it wisely, efficiently and effectively. Having a strategy and a plan is the best way to maximize your time.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="title">
+                                    <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
+                                    <span><strong>Development / Technical Support / Project Manager</strong><br>dataVoice International<br><strong style="font-size: 20px;">2006-2010</strong></span>
+                                </div>
+
+                                <div class="text-content">
+                                    <p>
+                                        While attending school, it would've been very typical to go back to Chili's and play an obsessive amount of Halo 2 online, but instead I was extremely fortunate to find work in my same field of study. At dataVoice, I not only had a great job supporting the software, I also had access to several Senior level developers that helped train and mentor me through and past my years at school. It was here that I began to forge the foundation of my programming background, and even here now 10 years later, I still use some of those very same paradigms I was taught back then. 
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="title">
+                                    <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
+                                    <span><strong>Webmaster / Developer</strong><br>Daystar Television Network<br><strong style="font-size: 20px;">2011-Current</strong></span>
+                                </div>
+
+                                <div class="text-content">
+                                    <p>
+                                        From front-end WordPress design to the development and deployment of our custom giving platform, there are no limits to what I am responsible for. If it goes out on the internet, it's under my umbrella. Originally contracted to handle a couple 3rd party integrations, since then, I've gone on to build and manage over 15 websites and build countless integrations.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--end of row-->
+            </div>
+        </section>
+
+        <section class="stat-counters duplicatable-content">
+
+            <div class="background-image-holder parallax-background">
+                <img class="background-image" alt="Background Image" src="img/hero8.jpg">
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                        <h1>More About Me</h1>
+                    </div>
+                </div><!--end of row-->
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat feature">
+                            <div class="stat-bubble">
+                                <span>25+</span>
+                            </div>
+                            <h3>Completed Websites</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat feature">
+                            <div class="stat-bubble">
+                                <span>100k+</span>
+                            </div>
+                            <h3>Completed Transactions</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat feature">
+                            <div class="stat-bubble">
+                                <span>12</span>
+                            </div>
+                            <h3>3rd Party API Integrations</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat feature">
+                            <div class="stat-bubble">
+                                <span>0</span>
+                            </div>
+                            <h3>Missed Deadlines</h3>
+                        </div>
+                    </div>
+                </div><!--end of row-->
+
             </div><!--end of container-->
         </section>
 

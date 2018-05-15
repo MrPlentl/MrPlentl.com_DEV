@@ -23,11 +23,9 @@
                 <div class="col-sm-12 text-center">
                     <h1>{{ $name }} - {{ $age }}</h1>
                     <ul>
-                        @forelse ($tasks as $task)
+                        @foreach ($tasks as $task)
                             <li><a href="/tasks/{{ $task->id }}">{{ $task->body }}</a></li>
-                            @empty
-                            <p>No results Found</p>
-                        @endforelse
+                        @endforeach
                     </ul>
                 </div>
             </div><!--end of row-->
