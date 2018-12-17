@@ -35,64 +35,6 @@
                             <li><a href="/chrome-theme/minimalist-dark">My Chrome Theme</a></li>
                         </ul>
                     </li>
-
-                    <li class="has-dropdown"><a href="/favorites">Favorites</a>
-                        <div class="subnav subnav-fullwidth">
-                            <div class="col-md-3">
-                                <h6 class="alt-font">Hobbies</h6>
-                                <ul class="subnav">
-                                    <li><a href="/hobbies/movies-and-tv">Movies & TV Shows</a></li>
-                                    <li><a href="/hobbies/books">Books & Comics</a></li>
-                                    <li><a href="/hobbies/music">Music</a></li>
-                                    <li><a href="/hobbies/video-games">Video Games</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-md-3">
-                                <h6 class="alt-font">Links</h6>
-                                <ul class="subnav">
-                                    <li><a href="/links#rss">RSS Feeds</a></li>
-                                    <li><a href="/links#wp-plugins">WordPress Plugins</a></li>
-                                    <li><a href="https://github.com/MrPlentl/Bamboozled-Theme" target="_blank">My IDE Styles</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-md-3">
-                                <h6 class="alt-font">Development Links</h6>
-                                <ul class="subnav">
-                                    <li><a href="/dev-links#programs">Programs</a></li>
-                                    <li><a href="/dev-links#browser-ext">Browser Extensions</a></li>
-                                    <li><a href="/dev-links#wamp-setup">WAMP Setup</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-md-3">
-                                <h6 class="alt-font">Web Sites</h6>
-                                <ul class="subnav">
-                                    <li><a href="https://laravel.com/" target="_blank">Laravel.com</a></li>
-                                    <li><a href="https://laracasts.com/" target="_blank">Laracasts</a></li>
-                                    <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="has-dropdown"><a href="#">Social</a>
-                        <ul class="subnav">
-                            <li><a href="https://facebook.com/MrPlentl" target="_blank">Facebook</a></li>
-                            <li><a href="https://twitter.com/MrPlentl" target="_blank">Twitter</a></li>
-                            <li><a href="https://youtube.com/c/thabamboozler" target="_blank">YouTube</a></li>
-                            <li><a href="https://plus.google.com/+ThaBamboozler" target="_blank">Google+</a></li>
-                            <li><a href="https://instagram.com/MrPlentl" target="_blank">Instagram</a></li>
-                            <li><a href="https://github.com/MrPlentl" target="_blank">GitHub</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="">
-                        <a href="/blog">Blog</a>
-                    </li>
-
-                    <li><a href="/contact">Contact</a></li>
                 </ul>
 
                 <ul class="social-icons text-right">
