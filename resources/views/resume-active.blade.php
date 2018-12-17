@@ -67,53 +67,6 @@
                         </p>
                     </div>
                 </div><!--end of row-->
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="feature feature-icon-large">
-                            <i class="icon icon-notebook"></i>
-                            <div class="pin-body"></div>
-                            <div class="pin-head"></div>
-                            <h5>2007 - Graduated</h5>
-                            <span>Software Applications and Programming</span>
-                            <span class="sub">ITT Tech - Richardson</span>
-                        </div>
-                    </div><!--end 3 col-->
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="feature feature-icon-large">
-                            <i class="icon icon-briefcase"></i>
-                            <div class="pin-body"></div>
-                            <div class="pin-head"></div>
-                            <h5>2005 - GameStop Corp.</h5>
-                            <span>Refurb Technician</span>
-                            <span class="sub">UI / UX Design</span>
-                        </div>
-                    </div><!--end 3 col-->
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="feature feature-icon-large">
-                            <i class="icon icon-ribbon"></i>
-                            <div class="pin-body"></div>
-                            <div class="pin-head"></div>
-                            <h5>2011 - Attained PhD.</h5>
-                            <span>Emergent Web Design</span>
-                            <span class="sub">University of Melbourne</span>
-                        </div>
-                    </div><!--end 3 col-->
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="feature feature-icon-large">
-                            <i class="icon icon-mic"></i>
-                            <div class="pin-body"></div>
-                            <div class="pin-head"></div>
-                            <h5>2013 - Spoke at Meetup</h5>
-                            <span>Efficient JS Modelling</span>
-                            <span class="sub">Meetup 2014 - Melbourne</span>
-                        </div>
-                    </div><!--end 3 col-->
-
-                </div><!--end of row-->
             </div>
 
         </section>
@@ -250,18 +203,6 @@
                                     </p>
                                 </div>
                             </li>
-                            <li>
-                                <div class="title">
-                                    <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
-                                    <span><strong>Refurb Tech</strong><br>GameStop Corp.<br><strong style="font-size: 20px;">2005</strong></span>
-                                </div>
-
-                                <div class="text-content">
-                                    <p>
-                                        While working at the GameStop distribution center, I was charged with the noble quest of restoring life to one of the greatest video game systems of all time, the PlayStation 2. While it may have seemed to be just a job to get me through school, I actually learned quite a few things there. One, I have no desire to work with electronic components. Two, GameStop runs a tight ship. It's the only place I've ever worked that every employee systematically took their break at the same time.  But the most important lesson I learned, is that time is money. We only have so much time every day and it's up to us to use it wisely, efficiently and effectively. Having a strategy and a plan is the best way to maximize your time.
-                                    </p>
-                                </div>
-                            </li>
 
                             <li>
                                 <div class="title">
@@ -279,12 +220,25 @@
                             <li>
                                 <div class="title">
                                     <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
-                                    <span><strong>Webmaster / Developer</strong><br>Daystar Television Network<br><strong style="font-size: 20px;">2011-Current</strong></span>
+                                    <span><strong>Webmaster / Developer</strong><br>Daystar Television Network<br><strong style="font-size: 20px;">2011-2018</strong></span>
                                 </div>
 
                                 <div class="text-content">
                                     <p>
                                         From front-end WordPress design to the development and deployment of our custom giving platform, there are no limits to what I am responsible for. If it goes out on the internet, it's under my umbrella. Originally contracted to handle a couple 3rd party integrations, since then, I've gone on to build and manage over 15 websites and build countless integrations.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="title">
+                                    <i class="icon icon-briefcase" style="padding-bottom: 20px;margin-right: 0;"></i><br>
+                                    <span><strong>Software Developer</strong><br>IBM Hybrid Cloud<br><strong style="font-size: 20px;">2018-current</strong></span>
+                                </div>
+
+                                <div class="text-content">
+                                    <p>
+                                        At IBM, I use design documentation, such as Functional Programming Specifications and high level design documents to implement the identified components. I also ensure that the implemented components are unit tested and ready to be integrated into the product. I also provide fixes to defects identified by the verification team during the software development life cycle.
                                     </p>
                                 </div>
                             </li>
